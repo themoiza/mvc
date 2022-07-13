@@ -1,10 +1,10 @@
 <?php
 
-namespace controller;
+namespace App\Controllers;
 
-use Model\View;
+use TheMoiza\MvcCore\Core\View;
 
-use Model\Response;
+use TheMoiza\MvcCore\Core\Response;
 
 class IndexController{
 

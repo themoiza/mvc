@@ -1,10 +1,10 @@
 <?php
 
-require_once __DIR__.'/../Model/Autoload.php';
+require_once dirname(__DIR__).'/vendor/autoload.php';
 
-use Model\Router;
+use TheMoiza\MvcCore\Core\Router;
 
-use Model\View;
+use TheMoiza\MvcCore\Core\View;
 
 class De{
 
@@ -38,5 +38,7 @@ class De{
 		}
 	}
 }
+
+Router::get('/', \App\Controllers\IndexController::class, 'index');
 
 Router::init();
