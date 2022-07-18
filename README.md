@@ -6,11 +6,7 @@ This MVC is an alternative for very simple applications, if you not want use lar
 
 **WARING: This project is in alpha version!**
 
-## install with composer
+## Install with composer
 ```
 composer require the.moiza/mvc
-```
-
-## get a exemple
-```
 ```
