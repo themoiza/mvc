@@ -1,6 +1,6 @@
 # Simple PHP MVC sample project
 
-This is an exemple use of the.moiza/mvc-core.
+This is an example use of the.moiza/mvc-core.
 
 This MVC is an alternative for very simple applications, if you not want use large commercial frameworks for tiny things.
 
